@@ -354,7 +354,7 @@ a {
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 999999;
     background-color: #fff;
     border-bottom: 1px solid gainsboro;
   }
@@ -1266,6 +1266,11 @@ a {
     position: relative;
     width: 100%;
     top: -120px;
+  }
+
+  .design-details {
+    width: 100%;
+    padding: 15px;
   }
 }
 
